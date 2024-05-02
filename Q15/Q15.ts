@@ -3,10 +3,11 @@
 //• Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 //• Print a second set of invitation messages, one for each person who is still in your list.
 
-
-let guestList:string[]=["Ayesha","Komal","Eman","Shanzy"];
+let guestList: string[] = ["Ayesha", "Komal", "Eman", "Shanzy"];
 let dontCome = guestList[0];
 console.log(dontCome, "you can't make for dinner.");
 
 guestList.splice(0, 1, "Shafak");
-guestList.forEach(guest => console.log(`Salam ${guest}, would you like to dinner with me.`))
+guestList.forEach((guest) =>
+  console.log(`Salam ${guest}, would you like to dinner with me.`)
+);

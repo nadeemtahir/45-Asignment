@@ -8,3 +8,4 @@ function show_magician(magicians:string[]): void{
 }
 const magicianNames:string[]=["Penn jillete","Criss angel","Teller"];
 show_magician(magicianNames)
+

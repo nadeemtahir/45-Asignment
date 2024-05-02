@@ -2,7 +2,6 @@
 
 let vehicles : string[]=["Honada Motorcycle","Honda City","Hilux","Audi"];
 
-console.log("I would like to own a" + " "+ vehicles[0]);
-console.log("I would like to own a" + " "+ vehicles[1]);
-console.log("I would like to own a" + " "+ vehicles[2]);
-console.log("I would like to own a" + " "+ vehicles[3]);
+for (let i=0; i<vehicles.length; i++){
+    console.log("I would like to own a"+" "+ vehicles[i]);
+};
